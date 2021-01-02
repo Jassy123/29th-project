@@ -118,8 +118,8 @@ function mouseReleased(){
 function keyPressed(){
     if(keyCode===32)
     {
-      Matter.Body.setPosition(polygon.body,{x:100,y:200});
-      sling.attacher(polygon.body);
+     this.polygon;
+     slingShot.attacher(this.polygon);
     }
 }
 
